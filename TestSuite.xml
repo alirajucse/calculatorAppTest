@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Signup Suite" verbose="1">
+
+    <test name="FAQ Tests">
+        <classes>
+            <class name="Tests.AdditionTest" />
+            <class name="Tests.SubtractionTest" />
+            <class name="Tests.MultiplicationTest" />
+            <class name="Tests.DivisionTest" />
+            <class name="Tests.RootFunctionTest" />
+            <class name="Tests.PercentageTest" />
+        </classes>
+    </test>
+</suite>
